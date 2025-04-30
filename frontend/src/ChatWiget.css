@@ -1,0 +1,44 @@
+.chat-tab {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    background-color: #2bb3b1;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    border-radius: 12px 12px 0 0;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }  
+  .chat-tab .chat-icon {
+    font-Size: 1.5rem;
+  } 
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+  }
+  
+  .chat-tab:hover .chat-icon {
+    display: inline-block;
+    animation: wiggle 0.8s ease-in-out;
+  }
+  card-body {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card-footer textarea {
+    width: 100%;
+    resize: none;
+    padding: 8px;
+    font-size: 14px;
+  }  
+  #button {     
+    color:white;
+    cursor: pointer;
+    background-color: #2bb3b1;
+  }
+  #button:hover {
+    background-color: #17546C;
+  }
